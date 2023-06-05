@@ -1,7 +1,7 @@
 public class test1 {
 	
 	
-	 static void zerosToEnd(int A[], int n)
+	 static void move_zeros(int A[], int n)
 	    {
 	        int count = 0;  
 	 
@@ -19,7 +19,7 @@ public class test1 {
 	    {
 	        int array[] = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
 	        int n = array.length;
-	        zerosToEnd(array, n);
+	        move_zeros(array, n);
 	        System.out.println("Array after pushing zeros to the back: ");
 	        for (int i=0; i<n; i++)
 	            System.out.print(array[i]+" ");
