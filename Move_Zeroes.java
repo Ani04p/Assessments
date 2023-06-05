@@ -3,7 +3,7 @@ public class test1 {
 	
 	 static void zerosToEnd(int A[], int n)
 	    {
-	        int count = 0;  // Count of non-zero elements
+	        int count = 0;  
 	 
 	        
 	        for (int i = 0; i < n; i++)
